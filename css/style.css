@@ -1,0 +1,193 @@
+/* body styling */
+ body{
+  background:#ffffff;
+  font-family:'Raleway', sans-serif;
+  font-weight:300;
+  font-size:16px;
+  margin-bottom: 100px;
+}
+/* button styling */
+button{
+  box-shadow: 0px 0px 5px 0px black;
+}
+/* h2 element styling */
+h2{
+  box-shadow: 0px 0px 10px 0px black;
+
+}
+/* navbar styling */
+.navbar{
+  background-color:#000000ea;
+  position:fixed;
+  width:100%;
+  z-index:10;
+}
+
+a:link, a:visited{
+  text-decoration:none;
+}
+
+a:active, a:hover{
+  background:black;
+  text-decoration:none;
+}
+
+.navbar li:hover{
+  background:black;
+}
+/* banner picture styling */
+#picture{
+  background-image:url("main_picture.jpeg");
+  background-size:cover;
+  background-position:bottom;
+  height:400px;
+  width:100%;
+  background-repeat:no-repeat;
+  opacity:0.85;
+}
+/* banner content styling */
+#picture .content h1{
+  color:white;
+  position:relative;
+  top:150px;
+  width:400px;
+  margin:0 auto;
+  font-size:40px;
+  text-align:center;
+  box-shadow: 0px 0px 20px 0px white;
+  border-radius: 10px;
+  padding:20px;
+
+}
+ /* header content styling */
+.content-head{  
+  font-size:22px;
+  color:rgb(255, 255, 255);
+  text-align:center;
+  opacity:0.90;
+  background-color:#000000;
+  width:100%;
+  margin:0;
+  padding: 10px;
+}
+/* mission statement styling */
+.mission p{
+font-size:large;
+margin-bottom:40px;
+margin-top:40px;
+font-style:italic;
+}
+/* admintable styling */
+.admintable{
+  text-align: center;
+  width:fit-content;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 10px;
+
+
+}
+
+table, td{
+  font-weight: 200;
+}
+
+
+table, th, td {
+  padding: 10px;
+}
+
+/* legal info styling */
+.important p{
+  color:rgba(255, 53, 53, 0.842);
+  box-shadow: 0px 0px 20px 0px rgb(255, 0, 0);
+  font-size: larger;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 20px;
+  width: fit-content;
+}
+/* contact info styling */
+.contact{
+  margin: 15px;
+}
+
+/* beverages styling  */
+.alldrinks{
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0px 0px 10px 0px gray;
+  display:inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+/* forms styling (login,signup,update) */
+    forms {
+      display:table;
+      margin:auto;
+      margin-top:10px;
+    }
+    
+    forms label{
+      display:table-cell;
+      color:rgba(0, 0, 0, 0.815);
+      font-family:'Raleway', sans-serif;
+      font-weight:300;
+      width:max-content;
+      padding:5px;;
+    }
+    
+    forms input{
+      display:table-cell;
+      color:rgba(0, 0, 0, 0.466);
+      font-family:'Raleway', sans-serif;
+      font-weight:300;
+      width:max-content;
+      padding:5px;;
+      }
+
+      forms button{
+        display:table-cell;
+        color:rgba(0, 0, 0, 0.466);
+        font-family:'Raleway', sans-serif;
+        font-weight:300;
+        width:180px;
+        padding:5px;;
+        margin-bottom:30px;
+        }
+
+   .invalid{
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px grey;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+   }
+
+      
+  /* footer styling */
+  .footer-container{
+    background-color:#000000e3;
+    position:fixed;
+    padding:10px;
+    width:100%;
+    bottom:0;
+    display:inline-table
+  }
+
+a { 
+  text-decoration: none;
+  color: white;
+  display:inline-table;
+}
